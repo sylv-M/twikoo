@@ -1,9 +1,5 @@
 [build]
-  publish = "public"
-
-[functions]
-  directory = "netlify/functions"
-  node_bundler = "esbuild"
+  functions = "netlify/functions"
 
 [functions]
   included_files = ["node_modules/xmlhttprequest/lib/**"]
