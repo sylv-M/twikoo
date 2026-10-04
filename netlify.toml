@@ -1,9 +1,12 @@
 [build]
-  publish = "."
+  command = "npm install"
+  publish = "dist"
   functions = "netlify/functions"
 
-[functions]
-  included_files = ["node_modules/xmlhttprequest/lib/**"]
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/twikoo"
+  status = 200
 
 [[headers]]
   for = "/*"
