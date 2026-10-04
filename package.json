@@ -1,0 +1,9 @@
+{
+  "name": "twikoo-netlify",
+  "version": "1.0.0",
+  "description": "Twikoo backend on Netlify",
+  "main": "netlify/functions/twikoo.js",
+  "dependencies": {
+    "twikoo-vercel": "^1.6.41"
+  }
+}
